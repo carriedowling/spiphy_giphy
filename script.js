@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     var type = $(this).attr("data-name");
     var queryURL =
-      "http://api.giphy.com/v1/gifs/search?q=" +
+      "https://api.giphy.com/v1/gifs/search?q=" +
       type +
       "&api_key=dc6zaTOxFJmzC&limit=10";
 
